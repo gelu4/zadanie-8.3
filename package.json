@@ -4,8 +4,9 @@
   "description": "https://gelu4.github.io/zadanie-7.3.1/",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test:html",
+    "test": "npm run test:html && npm run test:js",
     "test:html": "glob-run nu-html-checker *.html",
+    "test:js": "glob-run jshint js/*.js",
     "build": "npm run build:rimraf && npm run build:sass && npm run build:autoprefixer && npm run test",
     "build:rimraf": "rimraf css/*.css",
     "build:sass": "sass --sourcemap=none --update sass:css",
