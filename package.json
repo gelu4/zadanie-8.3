@@ -29,10 +29,14 @@
   "homepage": "https://github.com/gelu4/zadanie-8.3#readme",
   "dependencies": {
     "browser-sync": "^2.26.3",
+    "cryptiles": "^4.1.2",
     "glob-run": "^0.1.6",
+    "hoek": "^4.2.1",
     "jshint": "^2.9.6",
     "onchange": "^5.1.2",
     "rimraf": "^2.6.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "debug": "^4.1.0"
+  }
 }
